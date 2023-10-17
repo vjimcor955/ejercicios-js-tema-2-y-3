@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A02 - Ejercicio 6</title>
+</head>
+<body>
+    <h1>A02 - Ejercicio 6</h1>
+    <div id="clasificacion">
+      <table id="tabla">
+        <tr>
+          <th>Posicion</th>
+          <th>Equipo</th>
+          <th>Puntos</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Barcelona</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Real Madrid</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Atletico de Madrid</td>
+          <td>16</td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Introducir equipo</legend>
+            <label for="equipo">Equipo</label>
+            <input type="text" id="equipo"> <br>
+            <br>
+            <label for="puntos">Puntos</label>
+            <input type="text" id="puntos"> <br>
+            <br>
+            <input type="button" value="Actualizar clasificacion" onclick="actualizarTabla()">
+        </fieldset>
+    </form>
+
+    <script src="ej6.js"></script>
+</body>
+</html>
